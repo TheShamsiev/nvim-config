@@ -31,3 +31,4 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>o", "o<ESC>cc<CR>")
 
 vim.keymap.set("n", "gg", "ggg0");
+vim.keymap.set("n", "G", "Gg0");
