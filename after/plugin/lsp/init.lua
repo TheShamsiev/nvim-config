@@ -7,6 +7,7 @@ lsp.ensure_installed({
   "eslint",
   "rome",
   "lua_ls",
+  "clangd",
 })
 
 local cmp = require("cmp")
