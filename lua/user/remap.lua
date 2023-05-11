@@ -39,3 +39,6 @@ vim.keymap.set("n", "<leader>wk", "<C-w>k");
 vim.keymap.set("n", "<leader>wl", "<C-w>l");
 vim.keymap.set("n", "<leader>ws", "<C-w>s");
 vim.keymap.set("n", "<leader>wv", "<C-w>v");
+
+vim.keymap.set("n", "<leader>j", "<C-I>");
+vim.keymap.set("n", "<leader>k", "<C-O>");
