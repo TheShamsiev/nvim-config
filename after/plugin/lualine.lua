@@ -79,6 +79,14 @@ local config = {
     }
   },
   sections = sections,
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = sections.lualine_b,
+    lualine_c = sections.lualine_c,
+    lualine_x = sections.lualine_x,
+    lualine_y = sections.lualine_y,
+    lualine_z = sections.lualine_z,
+  },
   tabline = {},
   winbar = {},
   inactive_winbar = {},
