@@ -40,7 +40,11 @@ local sections = {
   lualine_b = {
     {'branch', icon = '󰊢'},
     {'diff', colored = false},
-    {'diagnostics', colored = false}
+    {
+      'diagnostics',
+      colored = false,
+      symbols = {error = 'E', warn = 'W', info = 'I', hint = 'H'}
+    }
   },
   lualine_c = {
     function() return '%=' end,
