@@ -1,4 +1,5 @@
 vim.opt.nu = true
+vim.opt.nuw = 4
 vim.opt.relativenumber = true
 
 vim.opt.tabstop = 2
@@ -29,3 +30,5 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "100"
 
 vim.opt.cursorline = true
+
+vim.opt.cmdheight = 0
