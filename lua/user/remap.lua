@@ -40,7 +40,7 @@ vim.keymap.set("n", "<leader>wl", "<C-w>l");
 vim.keymap.set("n", "<leader>ws", "<C-w>s");
 vim.keymap.set("n", "<leader>wv", "<C-w>v");
 
-vim.keymap.set("n", "<esc>", ":noh<CR>");
+vim.keymap.set("n", "<esc>", ":noh<CR>", { silent = true });
 
 vim.keymap.set("v", "<", "<gv");
 vim.keymap.set("v", ">", ">gv");
@@ -48,3 +48,5 @@ vim.keymap.set("v", ">", ">gv");
 -- Select Cucumber step definition regex
 vim.keymap.set("n", "va/", [[/\%.l\/.*\/<cr>gN]]) -- with slashes
 vim.keymap.set("n", "vi/", [[/\%.l\/\^\?\zs[^\$]*\ze\$\?\/<cr>gN]]) -- without slashes and ^/$
+
+vim.keymap.set("n", "<leader>f", ":lua vim.lsp.buf.format()<cr>")
