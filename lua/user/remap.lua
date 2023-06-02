@@ -41,3 +41,6 @@ vim.keymap.set("n", "<leader>ws", "<C-w>s");
 vim.keymap.set("n", "<leader>wv", "<C-w>v");
 
 vim.keymap.set("n", "<esc>", ":noh<CR>");
+
+vim.keymap.set("v", "<", "<gv");
+vim.keymap.set("v", ">", ">gv");
