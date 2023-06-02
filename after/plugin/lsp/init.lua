@@ -7,6 +7,7 @@ lsp.ensure_installed({
   "rome",
   "lua_ls",
   "clangd",
+  "cmake",
 })
 
 local cmp = require("cmp")
