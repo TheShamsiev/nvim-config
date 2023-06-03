@@ -50,4 +50,5 @@ return require('packer').startup(function(use)
   }
   use("norcalli/nvim-colorizer.lua")
   use("lewis6991/hover.nvim")
+  use("folke/trouble.nvim")
 end)
