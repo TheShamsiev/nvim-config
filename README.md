@@ -4,9 +4,7 @@
 
 <details>
   <summary>Screenshots</summary>
-  <pre>
-    ![alt README.md screenshot](./docs/screenshots/README.png)
-  </pre>
+    <img width="2168" alt="README" src="./docs/screenshots/README.png">
 </details>
 
 ## Goals
