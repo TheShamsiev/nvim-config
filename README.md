@@ -1,7 +1,5 @@
 # Configuration for Neovim
 
----
-
 <details>
   <summary>Screenshots</summary>
     <img width="2168" alt="README" src="./docs/screenshots/README.png">
