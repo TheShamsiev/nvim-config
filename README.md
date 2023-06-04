@@ -3,6 +3,9 @@
 <details>
   <summary>Screenshots</summary>
     <img width="2168" alt="README" src="./docs/screenshots/README.png">
+    <img width="2168" alt="nvim-dap for NodeJS" src="./docs/screenshots/debugger.png">
+    <img width="2168" alt="OCaml with search by keyword" src="./docs/screenshots/ocaml.png">
+    <img width="2168" alt="C++ with diagnostics from LSP" src="./docs/screenshots/cpp.png">
 </details>
 
 ## Goals
