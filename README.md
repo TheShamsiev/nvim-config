@@ -28,6 +28,7 @@
 
 ## TODO
 - [ ] Format the whole project
+- [ ] Rewrite keymaps so that they make more sense
 - [ ] Add complete documentation
 - [ ] Write scripts for atuomatic setup
 
