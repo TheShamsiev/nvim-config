@@ -18,10 +18,10 @@
 * [Neovim](https://github.com/neovim/neovim) version __0.9.0__ and above
 * [Python](https://www.python.org) (tested on version __3.11.0__)
 * [NodeJS](https://nodejs.org/en) with npm installed (tested on version __18.16.0__)
-* ==WIP==
+> TODO
 
 ## Installation process
-> ==WIP==
+> TODO
 
 ## Tested platforms
 - [x] Apple macOS
@@ -32,7 +32,7 @@
 ## TODO
 - [ ] Format the whole project
 - [ ] Rewrite keymaps so that they make more sense
-- [ ] Add complete documentation
+- [ ] Complete documentation
 - [ ] Write scripts for atuomatic setup
 
 [^1]: As for now, I'm still not sure if it should be a bloated VSCode-like editor, or a slightly
