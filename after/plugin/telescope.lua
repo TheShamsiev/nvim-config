@@ -1,5 +1,6 @@
 local builtin = require("telescope.builtin")
-vim.keymap.set("n", "<leader>pf", builtin.find_files, {})
+vim.keymap.set("n", "<leader>pf", ":Telescope find_files<cr>", {})
+vim.keymap.set("n", "<leader>pF", ":Telescope find_files hidden=true<cr>", {})
 vim.keymap.set("n", "<C-p>", builtin.git_files, {})
 vim.keymap.set("n", "<leader>ps", builtin.live_grep, {})
 
@@ -21,10 +22,10 @@ local keymap = vim.keymap.set
 local tb = require('telescope.builtin')
 local opts = { noremap = true, silent = true }
 
-keymap('n', '<space>g', ':Telescope current_buffer_fuzzy_find<cr>', opts)
+keymap('n', '<space>g', ':Telescope grep_string<cr>', opts)
 keymap('v', '<space>g', function()
 	local text = vim.getVisualSelection()
-	tb.current_buffer_fuzzy_find({ default_text = text })
+	tb.grep_string({ default_text = text })
 end, opts)
 
 keymap('n', '<space>G', ':Telescope live_grep<cr>', opts)
