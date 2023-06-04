@@ -2,6 +2,13 @@
 
 ---
 
+<details>
+  <summary>Screenshots</summary>
+  <pre>
+    ![alt README.md screenshot](./docs/screenshots/README.png)
+  </pre>
+</details>
+
 ## Goals
 * Full-fledged development environment [^1]
 * Reproducible configuration [^2]
