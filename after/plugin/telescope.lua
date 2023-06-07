@@ -1,7 +1,7 @@
 local builtin = require("telescope.builtin")
 vim.keymap.set("n", "<leader>pf", ":Telescope find_files<cr>", {})
 vim.keymap.set("n", "<leader>pF", ":Telescope find_files hidden=true<cr>", {})
-vim.keymap.set("n", "<C-p>", builtin.git_files, {})
+vim.keymap.set("n", "<leader>pg", builtin.git_files, {})
 vim.keymap.set("n", "<leader>ps", builtin.live_grep, {})
 
 function vim.getVisualSelection()
