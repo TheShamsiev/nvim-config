@@ -7,4 +7,4 @@ vim.keymap.set("n", "<C-n>", illuminate.goto_next_reference, {})
 
 vim.api.nvim_set_hl(0, "IlluminatedWordText", { bg = bg_color })
 vim.api.nvim_set_hl(0, "IlluminatedWordRead", { bg = bg_color })
-vim.api.nvim_set_hl(0, "IlluminatedWordWrite", { bg = bg_color})
+vim.api.nvim_set_hl(0, "IlluminatedWordWrite", { bg = bg_color })

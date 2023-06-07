@@ -33,7 +33,7 @@
 - [ ] FreeBSD
 
 ## TODO
-- [ ] Format the whole project
+- [x] Format the whole project
 - [ ] Rewrite keymaps so that they make more sense
 - [ ] Complete documentation
 - [ ] Write scripts for atuomatic setup

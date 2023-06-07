@@ -2273,10 +2273,4 @@ local config = {
   },
 }
 
-require 'alpha'.setup(config)
-
-
-
-
-
--- MANIFESTO
+require "alpha".setup(config)

@@ -5,7 +5,7 @@ dap.adapters.codelldb = {
   port = "${port}",
   executable = {
     command = "/Users/shamsiev/.local/share/nvim/mason/bin/codelldb",
-    args = {"--port", "${port}"},
+    args = { "--port", "${port}" },
   }
 }
 

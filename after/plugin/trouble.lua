@@ -16,4 +16,4 @@ require("trouble").setup {
   use_diagnostic_signs = true
 }
 
-vim.keymap.set('n', '<space>q', ":TroubleToggle<cr>", { silent = true })
+vim.keymap.set("n", "<space>q", ":TroubleToggle<cr>", { silent = true })

@@ -12,4 +12,4 @@ dap.listeners.before.event_exited["dapui_config"] = function()
   dapui.close({})
 end
 
-vim.keymap.set('n', '<leader>ui', require 'dapui'.toggle)
+vim.keymap.set("n", "<leader>ui", require "dapui".toggle)
