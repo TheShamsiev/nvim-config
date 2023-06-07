@@ -35,3 +35,6 @@ vim.opt.cursorline = true
 vim.opt.cmdheight = 1
 
 vim.opt.laststatus = 3
+
+vim.opt.list = true
+vim.opt.listchars:append "eol:↴"
