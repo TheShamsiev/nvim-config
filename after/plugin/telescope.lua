@@ -1,4 +1,6 @@
 local builtin = require("telescope.builtin")
+
+-- SETKEYMAP: TELESCOPE OUTER
 vim.keymap.set("n", "<leader>pf", ":Telescope find_files<cr>", {})
 vim.keymap.set("n", "<leader>pF", ":Telescope find_files hidden=true<cr>", {})
 vim.keymap.set("n", "<leader>pg", builtin.git_files, {})
@@ -21,6 +23,7 @@ local keymap = vim.keymap.set
 local tb = require("telescope.builtin")
 local opts = { noremap = true, silent = true }
 
+-- SETKEYMAP: TELESCOPE INNER
 keymap("n", "<space>g", ":Telescope grep_string<cr>", opts)
 keymap("v", "<space>g", function()
   local text = vim.getVisualSelection()

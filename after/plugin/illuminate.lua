@@ -2,6 +2,7 @@ local illuminate = require("illuminate")
 
 local bg_color = "#555555"
 
+-- SETKEYMAP: ILLUMINATE
 vim.keymap.set("n", "<C-p>", illuminate.goto_prev_reference, {})
 vim.keymap.set("n", "<C-n>", illuminate.goto_next_reference, {})
 

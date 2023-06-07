@@ -1,3 +1,4 @@
+-- SETKEYMAP: USER
 vim.g.mapleader = " "
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -41,5 +42,3 @@ vim.keymap.set("v", ">", ">gv");
 -- Select Cucumber step definition regex
 vim.keymap.set("n", "va/", [[/\%.l\/.*\/<cr>gN]]) -- with slashes
 vim.keymap.set("n", "vi/", [[/\%.l\/\^\?\zs[^\$]*\ze\$\?\/<cr>gN]]) -- without slashes and ^/$
-
-vim.keymap.set("n", "<leader>f", ":lua vim.lsp.buf.format()<cr>")

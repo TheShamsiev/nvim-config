@@ -1,3 +1,4 @@
+-- SETKEYMAP: NEOTREE OUTER
 vim.keymap.set("n", "<leader>e", vim.cmd.NeoTreeRevealToggle)
 
 -- Unless you are still migrating, remove the deprecated commands from v1.x
@@ -196,6 +197,7 @@ require("neo-tree").setup({
       },
       fuzzy_finder_mappings = {
         -- define keymaps for filter popup window in fuzzy_finder_mode
+        -- SETKEYMAP: NEOTREE INNER
         ["<down>"] = "move_cursor_down",
         ["<C-n>"] = "move_cursor_down",
         ["<up>"] = "move_cursor_up",

@@ -61,6 +61,7 @@ require("gitsigns").setup {
       return "<Ignore>"
     end, { expr = true })
 
+    -- SETKEYMAP: GITSIGNS
     -- Actions
     map("n", "<leader>Hs", gs.stage_hunk)
     map("n", "<leader>Hr", gs.reset_hunk)
