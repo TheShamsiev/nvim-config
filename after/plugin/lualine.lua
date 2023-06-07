@@ -42,7 +42,16 @@ local sections = {
   -- left
   lualine_a = { 'mode' },
   lualine_b = { { 'branch', icon = '󰊢' }, { 'diff', colored = false },
-    { 'diagnostics', colored = false, symbols = { error = 'E', warn = 'W', info = 'I', hint = 'H' } } },
+    {
+      'diagnostics',
+      colored = false,
+      symbols = {
+        error = 'E',
+        warn = 'W',
+        info = 'I',
+        hint = 'H'
+      }
+    } },
   lualine_c = { function() return '%=' end, { 'filetype', icon_only = true, colored = false }, { 'filename', path = 1 } },
   -- right
   lualine_x = {
