@@ -38,6 +38,7 @@
 - [ ] Complete documentation
 - [ ] Write scripts for atuomatic setup
 - [ ] Rethink requirements/platforms compatibility approach. It might be unneccessary
+- [ ] Develop custom color scheme
 
 [^1]: As for now, I'm still not sure if it should be a bloated VSCode-like editor, or a slightly
 customized vanilla-like configuration with the focus on speed and simplicity. It most likely will
