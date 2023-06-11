@@ -9,16 +9,16 @@ require("Comment").setup {
   ---LHS of toggle mappings in NORMAL mode
   toggler = {
     ---Line-comment toggle keymap
-    line = "<leader>c",
+    line = "?",
     ---Block-comment toggle keymap
-    block = "<leader>C",
+    block = "<leader>c",
   },
   ---LHS of operator-pending mappings in NORMAL and VISUAL mode
   opleader = {
     ---Line-comment toggle keymap
-    line = "<leader>c",
+    line = "?",
     ---Block-comment toggle keymap
-    block = "<leader>C",
+    block = "<leader>c",
   },
   ---LHS of extra mappings
   extra = {
