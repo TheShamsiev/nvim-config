@@ -21,7 +21,7 @@ local default_header = {
 
 local footer = {
   type = "text",
-  val = "",
+  val = "No Uganda children 😈",
   opts = {
     position = "center",
     hl = "Text",
