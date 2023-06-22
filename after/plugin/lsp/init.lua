@@ -8,6 +8,7 @@ lsp.ensure_installed({
   "lua_ls",
   "clangd",
   "cmake",
+  "ocamllsp",
 })
 
 local cmp = require("cmp")
