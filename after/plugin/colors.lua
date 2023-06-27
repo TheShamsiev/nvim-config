@@ -13,7 +13,7 @@ function SetColor(color)
   vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#767676", bg = "#1a1a1a" })
   vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#767676", bg = "#1a1a1a" })
   vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#eeeeee", bg = "#1a1a1a" })
-  vim.api.nvim_set_hl(0, "WinSeparator", { fg = "#1a1a1a", bg = "#1a1a1a" })
+  vim.api.nvim_set_hl(0, "WinSeparator", { fg = "#070707", bg = "#070707" })
   vim.api.nvim_set_hl(0, "MsgSeparator", { fg = "#1a1a1a", bg = "#1a1a1a" })
   vim.api.nvim_set_hl(0, "ColorColumn", { bg = "#1a1a1a" })
 end
